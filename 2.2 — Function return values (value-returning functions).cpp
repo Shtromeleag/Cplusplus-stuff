@@ -11,9 +11,9 @@ int getValueFromUser()
 
 int main() {
   
-  int x{};
-  x = getValueFromUser();   
+  int x{getValueFromUser()};
+ // x = getValueFromUser();   
   std::cout << "The double of the entered number is :" << x*2;
   
-//  return 0;
+  return 0;
 }
